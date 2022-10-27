@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDo List</title>
+</head>
+
+<body>
+    <header>
+        <h1>To-do List</h1>
+        <form class="form-search">
+          <input class="form-control" type="text" name="search" placeholder="Buscar to-do" autocomplete="off" autofocus/>
+        </form>
+      </header>
+
+    <main>
+        <section>
+            <article data-todo="Tarefa da manhã">
+                <span>Tarefa da manhã</span>
+                <i class="far fa-trash-alt" data-trash="Tarefa da manhã"></i>
+            </article>
+            <article data-todo="Tarefa da tarde">
+                <span>Tarefa da tarde</span>
+                <i class="far fa-trash-alt" data-trash="Tarefa da tarde"></i>
+            </article>
+            <article data-todo="Tarefa da noite">
+                <span>Tarefa da noite</span>
+                <i class="far fa-trash-alt" data-trash="Tarefa da noite"></i>
+            </article>
+        </section>
+    </main>
+    <form class="form-add-todo">
+        <label>Adicionar to-do</label>
+        <input class="form-control" type="text" name="add" autocomplete="off"/>
+    </form>
+
+    
+    <script src="app.js"></script>
+</body>
+
+</html>

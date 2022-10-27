@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #3C2C46;
+    color: #B063BC;
+}
+
+header {
+    text-align: center;
+    margin: 25px 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+
+    padding: 15px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    width: 400px;
+    height: 50px;
+
+    margin: 7px 0;
+    padding: 5px 10px;
+    border-radius: 10px;
+
+    background-color: #580E87;
+    box-shadow: 5px 5px 5px #390D53;
+}
+
+span {
+    flex-grow: 9;
+}
+
+i[data-trash] {
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+form {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    width: 390px;
+    height: 25px;
+    color: #B063BC;
+    margin-top: 10px;
+}
+
+form input::placeholder {
+    color: #B063BC;
+    text-align: center;
+}
+
+form input:focus {
+    outline-color: #B063BC;
+}
+
+.hidden {
+    display: none;
+}
