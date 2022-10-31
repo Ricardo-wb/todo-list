@@ -20,13 +20,7 @@ main {
     padding: 15px;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-article {
+ul li {
     display: flex;
     align-items: center;
     text-align: center;
